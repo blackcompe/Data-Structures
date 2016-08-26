@@ -176,11 +176,6 @@ public class GraphSet<T> {
     }
 
     private static class Vertex<E> {
-
-        public final static class Foo 
-        {
-            transient int bar;
-        }
         
         E elem;
         HashSet<Vertex<E>> neighbors = new HashSet<Vertex<E>>();
