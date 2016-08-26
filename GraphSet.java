@@ -179,7 +179,7 @@ public class GraphSet<T> {
 
         public final static class Foo 
         {
-            transiet int bar;
+            transient int bar;
         }
         
         E elem;
