@@ -12,8 +12,18 @@ import java.util.Set;
  * 
  * @author Ryan Beckett
  */
+ 
+class TestTopLevelClass{}
+
 public class GraphSet<T> {
 
+    private enum TestEnum { VALUE1, VALUE2; }
+    
+    interface TestInterface {
+        int testInterfaceConstant = 1;
+        void testInterfaceMeth();
+    }
+    
     private HashSet<Vertex<T>> graph = new HashSet<Vertex<T>>();
 
     /**
